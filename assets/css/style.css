@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+.main_container{
+display: flex;
+position: relative;
+top: 20px;
+justify-content: center;
+align-items: center;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 650px;
+    width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 20px 40px grey;
+     overflow: hidden;
+}
+.signup_items{
+    background-color: rgb(38, 137, 38);
+
+    position: relative;
+    width: 450px;
+    display: flex;
+
+}
+/*.image{
+    background-image: url('https://img.freepik.com/free-vector/hand-drawn-business-people-with-laptops_23-2149160765.jpg?size=626&ext=jpg&ga=GA1.1.1276841839.1637144892');
+    width: 500px;
+  position: relative;
+  top: 200px;
+  
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}*/
+.signup_forms{
+    position: relative;
+    display: flex;
+     padding: 10px;
+    left: 65px;
+    flex-direction: row;
+    flex-wrap: wrap;
+ align-content: center;
+ justify-content: center;
+ background-color: white;
+}
+.form_content{
+    padding: 30px;
+    /*border: 1px solid black;*/
+    width: 250px;
+    height: 500px;
+    box-shadow: 3px 3px 15px grey;
+    border-radius: 10px;
+   
+}
+.forms_text{
+font-family: 'Lato', sans-serif;
+}
+.person_details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.personal_details{
+    font-size: 12px;
+    width: 100px;
+    color: rgb(28, 84, 81);
+    border-bottom: 1px solid rgb(226, 26, 26);
+    font-family: 'Questrial', sans-serif;
+}
+.account_details{
+font-size: 12px;
+width: 100px;
+color: black;
+border-bottom:1px solid darkblue;
+font-family: 'Questrial', sans-serif;
+}
+.Labels{
+    font-size: 12px;
+    font-family: 'Questrial', sans-serif;
+    color: grey;
+}
+.Labels1{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Questrial', sans-serif;
+    color: grey;
+}
+.inputs{
+    width: 100%;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #f8f8ff ;
+}
+.button{
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 0px;
+
+
+}

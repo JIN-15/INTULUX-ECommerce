@@ -1,0 +1,354 @@
+.Navbar{
+width: 97%;
+height: 30px;
+border-bottom: 1px solid #e6e6e6;
+display: flex;
+display: inline;
+padding: 20px;
+font-size: 20px;
+text-decoration: none;
+display: inline-flex;
+ container-type: inline;
+
+}
+.nav1{
+	
+	width: 100%;
+	height: 20px;
+	justify-content: left;
+	align-items: right;
+	display: inline-flex;
+	display: flex;
+	text-decoration: none;
+	text-decoration-line: none;
+	
+
+}
+.logo{
+font-family: 'Rubik Glitch', cursive;
+font-size: 20px;
+display: flex;
+position: absolute;
+top: 5px;
+font-weight: bold;
+color: green;
+}
+.nav_items{
+	display: flex;
+	text-decoration: none;
+	height: 30px;
+	text-align: left;
+	justify-content: center;
+	text-decoration: none;
+	text-decoration-line: none;
+	margin-left: 0px;
+	position: absolute;
+	left: 100px;
+
+
+
+	
+
+}
+.nav_elements{
+	text-decoration: none;
+	text-decoration-line: none;
+	list-style-type: none;
+	text-decoration: none;
+	text-decoration-line: none;
+	padding-left: 13px;
+	overflow-wrap: normal;
+
+color:black;
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+display: inline-flex;
+}
+.list_items{
+	color: black;
+}
+.nav_elements a:hover{
+	color: green;
+
+}
+.nav3{
+	width: 75%;
+
+	justify-content: left;
+	display: inline-block;
+	
+}
+.search{
+	height: 35px;
+	width: 250px;
+	border-radius: 30px;
+	background-color: white;
+    font-size: 15px;
+}
+ .btn {
+	border-radius: 30px;
+	background-color: green;
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+}
+.btn :hover{
+	background-color: white;
+	color:green;
+} 
+.nav2n{
+	border-bottom: 1px solid #e2e2e2;
+	height: 40px;
+}
+.banner_talent{
+	width: 95%;
+	height: 500px;
+	border-radius: 10px;
+	overflow: hidden;
+	display: inline-flex;
+	background-color: #14a800;
+	position: absolute;
+	right:30px;
+	
+}
+.temp{
+		width: 70%;
+		height: 100px;
+		border-radius: 10px;
+		margin:50px;
+		background-color: #14a800;
+		position: center;
+		right:10px;
+		
+}
+.banner_left{
+	width: 40%;
+	height: 300px;
+margin-right: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: #14a800;
+
+}
+.banner_right{
+	width: 60%;
+	height: 490px;
+	
+	background-size: cover;
+	background-position: center;
+	/*background-image: url('https://assets-global.website-files.com/604761b6a7e539ea274cfd6b/6083c53d0addc52396c87bac_Category-Hero%402x%20(3).jpg');*/
+	margin-right: 20px;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+.sub_category_skill{
+	display: inline-flex;
+	width: 100%;
+height: 200px;
+
+
+}
+.sub_category{
+	width: 250px;
+	height: 170px;
+	padding: 10px;
+	padding-left: 8px;
+	border-radius: 10px;
+	margin-left: 45px;
+	background-color: #f2f7f2;
+}
+.graphic_project{
+	width: 94%;
+	display: inline-flex;
+	height: 400px;
+	overflow: hidden;
+	background-size: cover;
+	border-radius: 10px;
+	margin-left: 45px;
+}
+.left_project_catalog{
+	width: 30%;
+	height: 370px;
+	background-color: #f2f7f2;
+	overflow: hidden;
+	padding: 20px;
+
+}
+.right_project_catalog{
+width: 70%;
+height: 400px;
+overflow: hidden;
+/*background-image: url('https://assets-global.website-files.com/604761b6a7e539ea274cfd6b/604ca6a60f9e6bea2d972397_6037def1070ad1755dac8a62_logo-design%25402x.jpeg');*/
+background-repeat: no-repeat;
+
+background-size: contain;
+
+}
+.skills_list{
+	display: inline-flex;
+	width: 100%;
+	height: 550px;
+
+}
+.skills_items{
+	width: 250px;
+	margin-left: 10px;
+	padding: 20px;
+	display: inline-flex;
+}
+.footer{
+width: 94%;
+height: 450px;
+padding: 40px;
+background-color: #001E00;
+display: inline-flex;
+}
+.footer_elements{
+	width: 200px;
+	margin: 50px;
+}
+.footer_elements1{
+	width: 200px;
+	
+	margin: 50px;
+	margin-left: 60px;
+}
+.footer_item{
+	padding: 10px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	text-decoration: none;
+}
+.footer_items{
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	text-decoration: none;
+}
+.footer_list_item{
+	padding-top: 5px;
+}
+.term_start{
+	background-color: #001E00;
+}
+.jobs_list{
+	width: 97%;
+	margin: 20px;
+overflow: hidden;
+padding: 10px;
+}
+.job_list_categories{
+	display: inline-flex;
+	width: 100%;
+	overflow: hidden;
+
+
+}
+.right_job_category{
+	width: 80%;
+	
+
+}
+.left_job_banner{
+width: 50%;
+height: 240px;
+background-color: #f2f7f2;
+border-radius: 15px;
+margin-left: 32px;
+}
+.right_job_banner{
+width: 50%;
+height: 235px;
+background-color: #13544e;
+border-radius: 15px;
+margin-left: 32px;
+padding: 8px;
+padding-bottom: 30px;
+}
+.banner_jobs{
+	width: 90%;
+	height: 280px;
+	display: inline-flex;
+	padding: 10px;
+	background-color: #f2f7f2;
+	margin-left: 30px;
+	overflow: hidden;
+	border-radius: 15px;
+}
+.enterprice_banner{
+	
+	display: inline-flex;
+	
+}
+.talent_enterprice_suite{
+	display: inline-flex;
+}
+.talent_enterprice_banner{
+	border-radius: 20px;
+	background-size: cover;
+	overflow: hidden;
+
+}
+.enterprice_suite{
+	border-radius: 20px;
+	background-size: cover;
+	overflow: hidden;
+
+}
+.enterprice_banner_left{
+	padding: 40px;
+	background-color: #13544E;
+	
+}
+.talent_enterprice_banner_right{
+	padding: 40px;
+	background-color: #1F57C3;
+}
+.enterprice_button{
+	width: 150px;
+	height: 40px;
+	background-color: white;
+	color: #1F57C3;
+	text-decoration: none;
+	border-radius: 30px;
+	font-family: 'Poppins', sans-serif;
+}
+.talent_enterprice_button{
+	width: 250px;
+	height: 40px;
+	background-color: white;
+	color: #48544E;
+	text-decoration: none;
+	border-radius: 30px;
+	font-family: 'Poppins', sans-serif;
+}
+.enterpice_image{
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+.talent_enterpice_image{
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 600px;
+}
+.jobs_card{
+	display: inline-flex;
+	width: 100%;
+	height: 400px;
+
+}
+.jobs_description{
+	width: 40%;
+	height: 360px;
+	align-content: center;
+	border-radius: 20px;
+	border: 1px solid black;
+	margin-left: 62px;
+	padding: 10px;
+}
